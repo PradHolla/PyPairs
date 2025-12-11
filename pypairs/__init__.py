@@ -7,6 +7,10 @@ of market direction.
 """
 
 from .data_engine import DataEngine
+from .backtester import Backtester
+from .risk_engine import RiskMetrics
+from .optimizer import StrategyOptimizer
+from .visualizer import Visualizer
 
-__all__ = ["DataEngine"]
+__all__ = ["DataEngine", "Backtester", "RiskMetrics", "StrategyOptimizer", "Visualizer"]
 __version__ = "0.1.0"
