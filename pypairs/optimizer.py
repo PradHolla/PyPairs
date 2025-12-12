@@ -1,11 +1,3 @@
-"""
-Parameter optimizer for PyPairs (Person E)
-
-Implements a simple threshold search over entry Z-Score values by
-running the provided Backtester class on the DataEngine output.
-
-Author: Person E (Parameter Optimizer)
-"""
 from typing import List
 
 import numpy as np

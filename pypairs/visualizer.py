@@ -1,11 +1,3 @@
-"""
-Visualizer for PyPairs (Person A)
-
-Generates a 3-panel dashboard displaying Z-Score signals, equity curve,
-and optimization results for the pairs trading strategy.
-
-Author: Person A (The Architect - Integration & Visuals)
-"""
 from typing import Optional, Tuple
 
 import matplotlib.pyplot as plt

@@ -1,15 +1,3 @@
-"""
-Main Entry Point for PyPairs (Person A)
-
-Orchestrates the full pairs trading pipeline:
-1. Data Ingestion & Pair Selection (DataEngine)
-2. Strategy Optimization (StrategyOptimizer)
-3. Final Backtest with Optimal Threshold (Backtester)
-4. Risk Analysis (RiskMetrics)
-5. Dashboard Visualization (Visualizer)
-
-Author: Person A (The Architect - Integration & Visuals)
-"""
 import sys
 
 from pypairs.data_engine import DataEngine

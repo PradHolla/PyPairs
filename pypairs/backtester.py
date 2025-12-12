@@ -1,12 +1,3 @@
-"""
-Backtester for PyPairs (Person C)
-
-Implements a simple pairs-trading backtester that consumes the DataEngine
-output (a DataFrame with two price columns and a 'Z-Score' column) and
-simulates entry/exit rules based on Z-Score thresholds.
-
-Author: Person C (Strategy Developer)
-"""
 from typing import Optional
 
 import numpy as np
